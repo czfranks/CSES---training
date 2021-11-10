@@ -9,9 +9,9 @@ typedef long long ll;
 using namespace std;
 
 void solve() {
-    int n;
+    ll n;
     cin >> n;
-    for(int x=1; x<=n; ++x){
+    for(ll x=1; x<=n; ++x){
         cout << x*x * (x*x-1) / 2 - 4*(x-2)*(x-1) << endl;
     }
 }
