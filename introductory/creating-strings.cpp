@@ -9,7 +9,17 @@ typedef long long ll;
 typedef vector<int> vi;
 
 void solve() {
-    
+    string s;
+    cin >> s;
+    set<string> ss;
+    sort(s.begin(), s.end());
+    do{
+        ss.insert(s);
+    }while(next_permutation(s.begin(),s.end())); 
+    cout << ss.size() << endl;
+    for(string x: ss){
+        cout << x << endl;
+    }
 }
 
 
