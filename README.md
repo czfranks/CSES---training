@@ -2,6 +2,6 @@
 o/
 
 *missing
->grid-paths
->tower of Hanoi
->digit queries
+>grid-paths /
+>tower of Hanoi /
+>digit queries /
