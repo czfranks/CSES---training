@@ -8,6 +8,9 @@ using namespace std;
 typedef long long ll;
 typedef vector<int> vi;
 
+int di[] = {1,-1,0,0};
+int dj[] = {0,0,1,-1};
+
 void solve() {
     
 }
