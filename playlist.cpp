@@ -22,7 +22,7 @@ void solve() { // O(2*nlogn)
     {
         while(j<n && frec[a[j]]<1) //advance j pointer 
             frec[a[j]]++, ++j;
-        frec[a[i]]--;
+        frec[a[i]]--;              //refresh frecuency
         ans = max(ans, j-i);
     }   
     cout << ans << endl;
